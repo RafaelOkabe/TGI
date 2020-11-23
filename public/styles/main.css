@@ -1,0 +1,115 @@
+:root {
+    --color-green-primary: #03A800;
+    --color-red-primary: #E30F0F;
+    --color-yellow-primary: #E3DB0F;
+    --color-green-secundary: #79DB83;
+    --color-restaurant-background: #EBEBEB;
+}
+
+/*CSS restaurants*/
+
+section{
+    align-items: top;
+}
+
+#left{
+    position: relative;
+    display: inline-block;
+}
+
+#mid{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#right{
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.restaurant{
+    background: var(--color-restaurant-background);
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #000000;
+    position: relative;
+    height:150px;
+    line-height: 150px;
+}
+
+#restaurant1{
+    width: 262px;
+}
+#restaurant2{
+    width: 288px;
+}
+#restaurant3{
+    width: 201px;
+}
+#restaurant4{
+    width: 288px;
+}
+#restaurant5{
+    width: 251px;
+}
+#restaurant6{
+    width:288px;
+}
+#restaurant7{
+    width: 400px;
+}
+#restaurant8{
+    width: 350px;
+    margin-left: auto;
+    margin-right: 0;
+}
+#restaurant9{
+    width: 288px;
+    margin-left: auto;
+    margin-right: 0;
+}
+#restaurant10{
+    width: 263px;
+    margin-left: auto;
+    margin-right: 0;
+}
+#restaurant11{
+    width: 288px;
+    margin-left: auto;
+    margin-right: 0;
+}
+#restaurant12{
+    width: 332px;
+    margin-left: auto;
+    margin-right: 0;
+}
+#restaurant13{
+    width: 288px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* CSS das mesas */
+
+.divmesas1{
+    margin-top: 75px;
+    position: relative;
+}
+
+.divmesas2{
+    margin-top: 10px;
+}
+
+.mesas{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--color-green-primary);
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-left: 6px;
+    line-height: 55px;
+}
